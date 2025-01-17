@@ -6,7 +6,7 @@ const rows = parseInt(prompt("Input number of rows"), 10);
 		return;
 	} 
 
-	const columns = parseInt(prompt("Input number of coloumns"), 10);
+	const columns = parseInt(prompt("Input number of columns"), 10);
 	if(isNaN(columns) || columns <= 0){
 		alert("Enter a valid positive number");
 		return;
