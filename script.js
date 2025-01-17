@@ -20,7 +20,7 @@ for(let i = 0; i < rows; i++){
 	const row = table.insertRow();
 for(let j = 0; j < columns; j++){
 	const cell = row.insertCell(); 
-	table.textContent = `Row-${i} Column-${j}`;
+	cell.textContent = `Row-${i} Column-${j}`;
 }	
 }
 }
